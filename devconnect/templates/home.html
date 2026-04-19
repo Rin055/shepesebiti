@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DevConnect API</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: auto;
+        }
+
+        a.button {
+            display: block;
+            padding: 12px;
+            margin: 10px 0;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        a.button:hover {
+            background: #1d4ed8;
+            transform: scale(1.03);
+        }
+
+        .box {
+            margin-top: 20px;
+            padding: 15px;
+            background: #1e293b;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>DevConnect API Dashboard</h1>
+
+    <div class="container">
+
+        <a class="button" href="/api/users/">Users API</a>
+        <a class="button" href="/api/posts/">Posts API</a>
+        <a class="button" href="/api/users/register/">Register</a>
+        <a class="button" href="/api/token/">Get Token</a>
+        <a class="button" href="/swagger/">Swagger Docs</a>
+        <a class="button" href="/admin/">Admin Panel</a>
+
+        <div class="box">
+            <p>Tip:</p>
+            <p>Add <b>Authorization: Bearer TOKEN</b> in ModHeader</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
